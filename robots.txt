@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /exemplos/
+
+Sitemap: https://agencia.mobspot.com.br/sitemap.xml

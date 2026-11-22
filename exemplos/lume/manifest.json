@@ -1,38 +1,14 @@
 {
-  "codigo": "clinica-estetica-lume-vila-madalena",
-  "subdominio": "lume-vilamadalena.mobspot.com.br",
-  "template_versao": "clinicas-1.0.1",
-  "release": "9d41a3113075325967459aea",
-  "data": "2026-11-22T20:30:00-03:00",
+  "tipo": "demonstracao-estatica-adaptada",
   "teste": true,
-  "toolchain": {
-    "node": "24.22.1",
-    "sharp": "0.34.5"
-  },
-  "contrastes": {
-    "primaria": "#b1563a",
-    "texto": "#2b211c",
-    "botao": 4.927685760155819
-  },
-  "fontes": {
-    "titulo": "NunitoLocal",
-    "texto": "InterLocal"
-  },
-  "paginas": [
-    "/",
-    "/contato/",
-    "/servicos/"
-  ],
-  "bytes_por_pagina": {
-    "index.html": 235918,
-    "contato/index.html": 75359,
-    "404.html": 67256,
-    "servicos/index.html": 132631
-  },
+  "template_versao": "clinicas-1.0.1",
+  "release_origem": "9d41a3113075325967459aea",
+  "url": "https://agencia.mobspot.com.br/exemplos/lume/",
+  "observacoes": "Adaptado para Pages: contatos Jade, formulários sem envio, metadados locais. Não é release de clínica real. Nomes de assets herdados do template; hashes abaixo refletem os bytes adaptados.",
   "arquivos": {
     "404.html": {
-      "sha256": "0c1e5b4abe15ee2a8f0f80dce38c7fefa6a6ba1018b08d5c7fb28fcf311b4713",
-      "bytes": 6000
+      "sha256": "442ab9fbc94c8dca5f48b5a81dc5666da27bbd001030dc1eac319c061ea8586a",
+      "bytes": 6069
     },
     "assets/estetica-fachada-1260-f341078e65554cc9.webp": {
       "sha256": "f341078e65554cc956500a7bf5998d3009466aa0ac34ebc1e5a059a1b70c6e92",
@@ -99,36 +75,24 @@
       "bytes": 39582
     },
     "assets/site-48626a2316ea20d5.css": {
-      "sha256": "48626a2316ea20d5cdc0dd522a5bb1f4fd8608370142464c64f940dd4518ddb0",
-      "bytes": 13575
+      "sha256": "5e6cff78c00944ddb81b58e8472194d6defc9e7f386cb947f7b163b664a13c20",
+      "bytes": 13848
     },
     "assets/site-8d97797350369bd8.js": {
-      "sha256": "8d97797350369bd8d8829cad07c5a034b97d3c01950c3a61596ca794bc892d12",
-      "bytes": 4969
+      "sha256": "406954c7fa6a17f6c987eef5065f9ad58ff523f49be50951ccea908918a0412f",
+      "bytes": 2499
     },
     "contato/index.html": {
-      "sha256": "047fe4c8583568e5b40bf542e7f7a6c2b93ac765abf89f1723c50c34a0c4075b",
-      "bytes": 14103
+      "sha256": "309118fe81c2a1cd2c021c15a1b5e388b3908cd06edce51aedbb22b2c4e6e042",
+      "bytes": 12872
     },
     "index.html": {
-      "sha256": "9298d72e3470577211ae4089ac420565598f875a698f9ae9eafe27923c8c4df0",
-      "bytes": 16820
-    },
-    "llms.txt": {
-      "sha256": "ccc80f44f1bcdbcb6ccf70377d7af6ed036d02207519cb98a07c72383bce5ab9",
-      "bytes": 295
-    },
-    "robots.txt": {
-      "sha256": "d42a4a527e2b6c2f63eb77977bbab9729c9b47b2e26d5975e63246eed7999a0a",
-      "bytes": 85
+      "sha256": "d57dd20d74cb35fe8d3583e49334ac27a4832970c00e346b4e5761685f7715b5",
+      "bytes": 16897
     },
     "servicos/index.html": {
-      "sha256": "372cde41e5dcf82226f4c246cfa709efc5345489ac55226216bda41193d2f079",
-      "bytes": 11827
-    },
-    "sitemap.xml": {
-      "sha256": "936547552a009cf9dda7789a289603a114daf4085cb65e6d4152a3ac205bd42b",
-      "bytes": 108
+      "sha256": "e179a62f6fce9ac25afd2f326eab28bbf0f8f6c2430dee16bfe53e66ad962d68",
+      "bytes": 11775
     }
   }
 }

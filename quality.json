@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "site": {
+    "slug": "agencia-mobspot-com-br",
+    "canonical_url": "https://agencia.mobspot.com.br/",
+    "indexability": "index"
+  },
+  "artifact": {
+    "pages": [
+      {
+        "file": "index.html",
+        "route": "/",
+        "indexable": true,
+        "require_json_ld": true
+      },
+      {
+        "file": "privacidade/index.html",
+        "route": "/privacidade/",
+        "indexable": true,
+        "require_json_ld": false
+      },
+      {
+        "file": "404.html",
+        "route": "/404.html",
+        "indexable": false,
+        "require_json_ld": false
+      },
+      {
+        "file": "exemplos/lume/index.html",
+        "route": "/exemplos/lume/",
+        "indexable": false,
+        "require_json_ld": false
+      },
+      {
+        "file": "exemplos/lume/contato/index.html",
+        "route": "/exemplos/lume/contato/",
+        "indexable": false,
+        "require_json_ld": false
+      },
+      {
+        "file": "exemplos/lume/servicos/index.html",
+        "route": "/exemplos/lume/servicos/",
+        "indexable": false,
+        "require_json_ld": false
+      },
+      {
+        "file": "exemplos/lume/404.html",
+        "route": "/exemplos/lume/404.html",
+        "indexable": false,
+        "require_json_ld": false
+      },
+      {
+        "file": "exemplos/patas-felizes/index.html",
+        "route": "/exemplos/patas-felizes/",
+        "indexable": false,
+        "require_json_ld": false
+      },
+      {
+        "file": "exemplos/patas-felizes/contato/index.html",
+        "route": "/exemplos/patas-felizes/contato/",
+        "indexable": false,
+        "require_json_ld": false
+      },
+      {
+        "file": "exemplos/patas-felizes/servicos/index.html",
+        "route": "/exemplos/patas-felizes/servicos/",
+        "indexable": false,
+        "require_json_ld": false
+      },
+      {
+        "file": "exemplos/patas-felizes/404.html",
+        "route": "/exemplos/patas-felizes/404.html",
+        "indexable": false,
+        "require_json_ld": false
+      },
+      {
+        "file": "exemplos/sorrir-aurora/index.html",
+        "route": "/exemplos/sorrir-aurora/",
+        "indexable": false,
+        "require_json_ld": false
+      },
+      {
+        "file": "exemplos/sorrir-aurora/contato/index.html",
+        "route": "/exemplos/sorrir-aurora/contato/",
+        "indexable": false,
+        "require_json_ld": false
+      },
+      {
+        "file": "exemplos/sorrir-aurora/servicos/index.html",
+        "route": "/exemplos/sorrir-aurora/servicos/",
+        "indexable": false,
+        "require_json_ld": false
+      },
+      {
+        "file": "exemplos/sorrir-aurora/404.html",
+        "route": "/exemplos/sorrir-aurora/404.html",
+        "indexable": false,
+        "require_json_ld": false
+      }
+    ],
+    "required_files": [
+      "index.html",
+      "404.html",
+      "robots.txt",
+      "sitemap.xml",
+      "llms.txt",
+      "CNAME",
+      ".nojekyll",
+      "privacidade/index.html",
+      "assets/og.png"
+    ],
+    "budgets": {
+      "max_file_bytes": 1048576,
+      "max_image_bytes": 524288,
+      "max_video_bytes": 1048576,
+      "max_total_bytes": 16777216
+    }
+  },
+  "browser": {
+    "viewports": [
+      {
+        "name": "mobile",
+        "width": 390,
+        "height": 844,
+        "mobile": true
+      },
+      {
+        "name": "desktop",
+        "width": 1366,
+        "height": 900,
+        "mobile": false
+      }
+    ],
+    "lighthouse": {
+      "thresholds": {
+        "performance": 0.75,
+        "accessibility": 0.9,
+        "best-practices": 0.9,
+        "seo": 0.9
+      },
+      "max_transfer_bytes": 2621440
+    }
+  },
+  "smoke": {
+    "require_https": true,
+    "routes": [
+      {
+        "path": "/",
+        "status": 200,
+        "contains": [
+          "Agência Mobspot",
+          "Quero meu site"
+        ]
+      },
+      {
+        "path": "/privacidade/",
+        "status": 200,
+        "contains": [
+          "localStorage"
+        ]
+      },
+      {
+        "path": "/assets/og.png",
+        "status": 200
+      },
+      {
+        "path": "/nao-existe-tesseract",
+        "status": 404
+      }
+    ]
+  }
+}

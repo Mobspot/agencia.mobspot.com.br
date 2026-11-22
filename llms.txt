@@ -1,0 +1,11 @@
+# Agência Mobspot
+
+Sites profissionais para clínicas.
+
+- Site: implantação de R$ 297 + R$ 49/mês, hospedagem e até 2 alterações mensais.
+- Agente de IA: a partir de R$ 600/mês, site incluso, primeiro atendimento e agendamento pelo WhatsApp.
+- Sob medida: a partir de R$ 1.200, orçamento conforme o projeto.
+- Contato: https://wa.me/5511995391545
+- Privacidade: https://agencia.mobspot.com.br/privacidade/
+
+As clínicas em /exemplos/ são fictícias e não devem ser apresentadas como clientes ou clínicas reais.

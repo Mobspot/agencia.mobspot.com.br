@@ -1,38 +1,14 @@
 {
-  "codigo": "clinica-odonto-sorrir-aurora-moema",
-  "subdominio": "sorriraurora-moema.mobspot.com.br",
-  "template_versao": "clinicas-1.0.1",
-  "release": "0e3fae867cf8a6c2fdbb4561",
-  "data": "2026-11-22T20:30:00-03:00",
+  "tipo": "demonstracao-estatica-adaptada",
   "teste": true,
-  "toolchain": {
-    "node": "24.22.1",
-    "sharp": "0.34.5"
-  },
-  "contrastes": {
-    "primaria": "#0e6e7e",
-    "texto": "#13232b",
-    "botao": 5.914966127692923
-  },
-  "fontes": {
-    "titulo": "NunitoLocal",
-    "texto": "InterLocal"
-  },
-  "paginas": [
-    "/",
-    "/contato/",
-    "/servicos/"
-  ],
-  "bytes_por_pagina": {
-    "index.html": 215672,
-    "contato/index.html": 75538,
-    "404.html": 67419,
-    "servicos/index.html": 154802
-  },
+  "template_versao": "clinicas-1.0.1",
+  "release_origem": "0e3fae867cf8a6c2fdbb4561",
+  "url": "https://agencia.mobspot.com.br/exemplos/sorrir-aurora/",
+  "observacoes": "Adaptado para Pages: contatos Jade, formulários sem envio, metadados locais. Não é release de clínica real. Nomes de assets herdados do template; hashes abaixo refletem os bytes adaptados.",
   "arquivos": {
     "404.html": {
-      "sha256": "9b21f74e42724b00ee85e5e919299955de529adfc0e4615c6f5dc0120b413f58",
-      "bytes": 6051
+      "sha256": "4a8e3685eb9d4d1d74dbed309bac8177d8985ea2d826c1e09f1fd21b79fc3e16",
+      "bytes": 6211
     },
     "assets/inter-8909904ab6c872eb.woff2": {
       "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc",
@@ -99,36 +75,24 @@
       "bytes": 40142
     },
     "assets/site-8d97797350369bd8.js": {
-      "sha256": "8d97797350369bd8d8829cad07c5a034b97d3c01950c3a61596ca794bc892d12",
-      "bytes": 4969
+      "sha256": "52d8bea6ea74cadb314aea1f19b9be8740ecb167a8fe37c3fe687f61490a62fd",
+      "bytes": 2508
     },
     "assets/site-c7d6f841969b85cc.css": {
-      "sha256": "c7d6f841969b85ccf98115fc5840481852f4f0cf7ba8aad923cb696c19410f2b",
-      "bytes": 13575
+      "sha256": "c3458722c8f527ee26b59e2bd501cb37d54c9d10ac398089f16160563704ec26",
+      "bytes": 13866
     },
     "contato/index.html": {
-      "sha256": "8dcabbdde17c863e899d2a4a69e854268d90c5fcd55b5ddaa3498ff01ddafb7b",
-      "bytes": 14170
+      "sha256": "55f2769e10c05df37091a9637f18e6f413e82db45a9e68956ef84ee51eb63ecf",
+      "bytes": 13043
     },
     "index.html": {
-      "sha256": "60c9aeeb127b9690b1524e68300684c7732869758590d360439522a457ca4369",
-      "bytes": 16986
-    },
-    "llms.txt": {
-      "sha256": "a00dc4b4008c1fb225e154d913b8fe39245f07e3a49a837d73196cc3b2fb5ed5",
-      "bytes": 279
-    },
-    "robots.txt": {
-      "sha256": "c85abc4f9f9fa861117a7a251df7a4976e424be442373a99a60eb1becf03017c",
-      "bytes": 86
+      "sha256": "cc5bf777f7da8c219aa3322f63798bc59b6358d276761c3b9f2740e1f1a9438f",
+      "bytes": 17302
     },
     "servicos/index.html": {
-      "sha256": "4c9dd1e62fbebe960b48b23906f7a3f61cd2c39d6920a74ef00eee3382a3af7c",
-      "bytes": 12070
-    },
-    "sitemap.xml": {
-      "sha256": "936547552a009cf9dda7789a289603a114daf4085cb65e6d4152a3ac205bd42b",
-      "bytes": 108
+      "sha256": "f2c05144d46b3c373e3f7c2f4e6e730501cd36adb586f7d4c3b9e71d05d41165",
+      "bytes": 12203
     }
   }
 }
