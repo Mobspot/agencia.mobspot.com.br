@@ -1,0 +1,134 @@
+{
+  "codigo": "clinica-vet-patas-felizes-tatuape",
+  "subdominio": "patasfelizes-tatuape.mobspot.com.br",
+  "template_versao": "clinicas-1.0.1",
+  "release": "8dee69bdb434439f665ef883",
+  "data": "2026-11-22T18:40:00-03:00",
+  "teste": true,
+  "toolchain": {
+    "node": "24.22.1",
+    "sharp": "0.34.5"
+  },
+  "contrastes": {
+    "primaria": "#1e7e6d",
+    "texto": "#1f2933",
+    "botao": 4.929148180461299
+  },
+  "fontes": {
+    "titulo": "NunitoLocal",
+    "texto": "InterLocal"
+  },
+  "paginas": [
+    "/",
+    "/contato/",
+    "/servicos/"
+  ],
+  "bytes_por_pagina": {
+    "index.html": 208126,
+    "contato/index.html": 76106,
+    "404.html": 67852,
+    "servicos/index.html": 114261
+  },
+  "arquivos": {
+    "404.html": {
+      "sha256": "d786ab20e1ec6f57eaa71d1af07b8f064807f1f3df218ae9afbdf21447ff5d6c",
+      "bytes": 6134
+    },
+    "assets/consultorio-1-1200-4f6ed31f98916eb4.webp": {
+      "sha256": "4f6ed31f98916eb44b499dfc69cc32515b912a7467b3a3f26dbf350b9f34a2ec",
+      "bytes": 19682
+    },
+    "assets/consultorio-1-420-4fc96df27e523757.webp": {
+      "sha256": "4fc96df27e5237578f829278d78461f23665091e8cbf492e31f3b070958f6d65",
+      "bytes": 5268
+    },
+    "assets/consultorio-1-840-ea8ca8a5f2063086.webp": {
+      "sha256": "ea8ca8a5f2063086065cf5c0717fd6960049de1fc39fdfba3ba3b11590e51f01",
+      "bytes": 12316
+    },
+    "assets/fachada-1-1024-8e9aaedbc367bde9.webp": {
+      "sha256": "8e9aaedbc367bde90dbbbe828c1411c9e29739631a6bdbbf2ba5814e175c9a58",
+      "bytes": 93804
+    },
+    "assets/fachada-1-420-65e860d2d3fd7fbc.webp": {
+      "sha256": "65e860d2d3fd7fbc22b25e109343083a3e1658d309ba165c2de71c4afdca52cf",
+      "bytes": 16624
+    },
+    "assets/fachada-1-840-06ac45d331680638.webp": {
+      "sha256": "06ac45d3316806388c57712ecfd41b50c114cb04395af8a1736c556eb69ab4fd",
+      "bytes": 50380
+    },
+    "assets/ilustrativa-exames-1024-4f0573d6deacb00f.webp": {
+      "sha256": "4f0573d6deacb00f7cd9386f962378317dbb6e8b431c98cf0d1b77b1e6780fb6",
+      "bytes": 20892
+    },
+    "assets/ilustrativa-exames-420-477fb1281e274cfe.webp": {
+      "sha256": "477fb1281e274cfe51c8f9428cf998202c588056a52fc82a2574330bd2808ed8",
+      "bytes": 6484
+    },
+    "assets/ilustrativa-exames-840-8c198d60da843e0c.webp": {
+      "sha256": "8c198d60da843e0ccc66332d085b123b3bda227ff5f5413997fc2c814d7d85c2",
+      "bytes": 14966
+    },
+    "assets/inter-8909904ab6c872eb.woff2": {
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc",
+      "bytes": 23664
+    },
+    "assets/logo-56545691afd16e4f.webp": {
+      "sha256": "56545691afd16e4f312c40bd85a2c75b8409af593cfcdeb0aeceaab7a9edacec",
+      "bytes": 2990
+    },
+    "assets/nunito-2363d3ed037283eb.woff2": {
+      "sha256": "2363d3ed037283ebb961e8c4b4917e40a8bc8853cf9965cf1ea7b4daa1df630a",
+      "bytes": 16520
+    },
+    "assets/og-96dd79a14ea1a84d.png": {
+      "sha256": "96dd79a14ea1a84de45a979124edacdcd709773b5e44ed49d95fc7d2e8823c1a",
+      "bytes": 45149
+    },
+    "assets/recepcao-1-1024-0ff5af261ad0d513.webp": {
+      "sha256": "0ff5af261ad0d513ba14be2cb15fdd7a039ecbab3ac1be7e5154446f9eb07d67",
+      "bytes": 35806
+    },
+    "assets/recepcao-1-420-4013930929482d29.webp": {
+      "sha256": "4013930929482d292b16795bd6969d034ff638cd1c96f41149d8ed503f94d0ae",
+      "bytes": 8530
+    },
+    "assets/recepcao-1-840-40f5fb292cc28760.webp": {
+      "sha256": "40f5fb292cc28760ec08d3c1c6f2a0e4056228dded2e8561369801fc5da20f54",
+      "bytes": 21888
+    },
+    "assets/site-8d97797350369bd8.js": {
+      "sha256": "8d97797350369bd8d8829cad07c5a034b97d3c01950c3a61596ca794bc892d12",
+      "bytes": 4969
+    },
+    "assets/site-c59d9f4e1071ed90.css": {
+      "sha256": "c59d9f4e1071ed90645103699caffdb12f285f498ead55cd9ec063ef9affb412",
+      "bytes": 13575
+    },
+    "contato/index.html": {
+      "sha256": "2dec21cd4954aacbc66e8f284f1cc1ef08e57da67eeb3190eb7dbc20d0fa6313",
+      "bytes": 14388
+    },
+    "index.html": {
+      "sha256": "9709321020684bc3d3b5b0bdc1dfcd2cc455b88f6417af3161f973c1f2348ba4",
+      "bytes": 16798
+    },
+    "llms.txt": {
+      "sha256": "7dac70159dc056107db664f6911fd5d67bd24835e3fb658101ba29619554710d",
+      "bytes": 287
+    },
+    "robots.txt": {
+      "sha256": "2fa1c800aae518934ae60d7cc886558eacc9b6877c3b1c9a1aca3627092496c7",
+      "bytes": 88
+    },
+    "servicos/index.html": {
+      "sha256": "3e40bb83f785813a32e1f82680dc0c278ab692685cc9fe1bdbb52ef81cc39849",
+      "bytes": 11969
+    },
+    "sitemap.xml": {
+      "sha256": "936547552a009cf9dda7789a289603a114daf4085cb65e6d4152a3ac205bd42b",
+      "bytes": 108
+    }
+  }
+}

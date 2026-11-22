@@ -1,0 +1,134 @@
+{
+  "codigo": "clinica-estetica-lume-vila-madalena",
+  "subdominio": "lume-vilamadalena.mobspot.com.br",
+  "template_versao": "clinicas-1.0.1",
+  "release": "9d41a3113075325967459aea",
+  "data": "2026-11-22T20:30:00-03:00",
+  "teste": true,
+  "toolchain": {
+    "node": "24.22.1",
+    "sharp": "0.34.5"
+  },
+  "contrastes": {
+    "primaria": "#b1563a",
+    "texto": "#2b211c",
+    "botao": 4.927685760155819
+  },
+  "fontes": {
+    "titulo": "NunitoLocal",
+    "texto": "InterLocal"
+  },
+  "paginas": [
+    "/",
+    "/contato/",
+    "/servicos/"
+  ],
+  "bytes_por_pagina": {
+    "index.html": 235918,
+    "contato/index.html": 75359,
+    "404.html": 67256,
+    "servicos/index.html": 132631
+  },
+  "arquivos": {
+    "404.html": {
+      "sha256": "0c1e5b4abe15ee2a8f0f80dce38c7fefa6a6ba1018b08d5c7fb28fcf311b4713",
+      "bytes": 6000
+    },
+    "assets/estetica-fachada-1260-f341078e65554cc9.webp": {
+      "sha256": "f341078e65554cc956500a7bf5998d3009466aa0ac34ebc1e5a059a1b70c6e92",
+      "bytes": 110874
+    },
+    "assets/estetica-fachada-420-0b4cd0156c26bdf9.webp": {
+      "sha256": "0b4cd0156c26bdf9850d57d8e19bd8a0890b94c285c468a3bf6e2e4e0b3195c4",
+      "bytes": 18490
+    },
+    "assets/estetica-fachada-840-adc76f314b048b86.webp": {
+      "sha256": "adc76f314b048b86c772386c2003adc615f42ed53e50f6c2e898443f02f62fb9",
+      "bytes": 58992
+    },
+    "assets/estetica-recepcao-1260-c7e571c7d37efd01.webp": {
+      "sha256": "c7e571c7d37efd017063161e050fab7d8539a1e5d0e9378aec056547fb8481b8",
+      "bytes": 46968
+    },
+    "assets/estetica-recepcao-420-3dd3cd9d4851489e.webp": {
+      "sha256": "3dd3cd9d4851489e643f26b75b909bda414819be4709b3ae6b2039194fa286d8",
+      "bytes": 10146
+    },
+    "assets/estetica-recepcao-840-016367080b8135a5.webp": {
+      "sha256": "016367080b8135a57bbbee1239e28c6baca78252b47bab8ca70fa0ffb6a52f1c",
+      "bytes": 26910
+    },
+    "assets/estetica-sala-1260-60b0ab3f04f2526d.webp": {
+      "sha256": "60b0ab3f04f2526dc4db4ab159ab27fca635df3f78d4e44a18e22cc7c527f236",
+      "bytes": 26230
+    },
+    "assets/estetica-sala-420-1d8b5dba670126c4.webp": {
+      "sha256": "1d8b5dba670126c4034135f1b527e45d85569d4af387956623ed3876c83a2bb9",
+      "bytes": 6484
+    },
+    "assets/estetica-sala-840-9b13ea5dfa9f3ab6.webp": {
+      "sha256": "9b13ea5dfa9f3ab6c3a5c49c2860f409287942859c5a0491ffc19f9bb8e50bf8",
+      "bytes": 15924
+    },
+    "assets/estetica-skincare-1260-f37a86c19d7551de.webp": {
+      "sha256": "f37a86c19d7551de5bdf789c792d5b24ea75c43c94f533e5fc5e71e6e1f0da3d",
+      "bytes": 33318
+    },
+    "assets/estetica-skincare-420-d6a98fb201ff5419.webp": {
+      "sha256": "d6a98fb201ff5419933f8421d5e7e9eb7f40be8a151894b8fbb37afd9331dc39",
+      "bytes": 8370
+    },
+    "assets/estetica-skincare-840-9038576b92710d4a.webp": {
+      "sha256": "9038576b92710d4a8fd3b3e3fd1d1b71c60a2a42438b69a7ef3183ffa03e0518",
+      "bytes": 19934
+    },
+    "assets/inter-8909904ab6c872eb.woff2": {
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc",
+      "bytes": 23664
+    },
+    "assets/logo-5eefea37aac8c7c4.webp": {
+      "sha256": "5eefea37aac8c7c4d4f2d865c39c7bdc1098ad4fcb7285b7e651d043a6d2e120",
+      "bytes": 2528
+    },
+    "assets/nunito-2363d3ed037283eb.woff2": {
+      "sha256": "2363d3ed037283ebb961e8c4b4917e40a8bc8853cf9965cf1ea7b4daa1df630a",
+      "bytes": 16520
+    },
+    "assets/og-4d577345add4bc1f.png": {
+      "sha256": "4d577345add4bc1f86a77088258a2d40567978c17f626c1bfda36c5dc7acbd47",
+      "bytes": 39582
+    },
+    "assets/site-48626a2316ea20d5.css": {
+      "sha256": "48626a2316ea20d5cdc0dd522a5bb1f4fd8608370142464c64f940dd4518ddb0",
+      "bytes": 13575
+    },
+    "assets/site-8d97797350369bd8.js": {
+      "sha256": "8d97797350369bd8d8829cad07c5a034b97d3c01950c3a61596ca794bc892d12",
+      "bytes": 4969
+    },
+    "contato/index.html": {
+      "sha256": "047fe4c8583568e5b40bf542e7f7a6c2b93ac765abf89f1723c50c34a0c4075b",
+      "bytes": 14103
+    },
+    "index.html": {
+      "sha256": "9298d72e3470577211ae4089ac420565598f875a698f9ae9eafe27923c8c4df0",
+      "bytes": 16820
+    },
+    "llms.txt": {
+      "sha256": "ccc80f44f1bcdbcb6ccf70377d7af6ed036d02207519cb98a07c72383bce5ab9",
+      "bytes": 295
+    },
+    "robots.txt": {
+      "sha256": "d42a4a527e2b6c2f63eb77977bbab9729c9b47b2e26d5975e63246eed7999a0a",
+      "bytes": 85
+    },
+    "servicos/index.html": {
+      "sha256": "372cde41e5dcf82226f4c246cfa709efc5345489ac55226216bda41193d2f079",
+      "bytes": 11827
+    },
+    "sitemap.xml": {
+      "sha256": "936547552a009cf9dda7789a289603a114daf4085cb65e6d4152a3ac205bd42b",
+      "bytes": 108
+    }
+  }
+}
