@@ -184,7 +184,24 @@ class SiteTests(unittest.TestCase):
         self.assertIn('catch', js)
         self.assertIn('localStorage.setItem', js)
         css = (ROOT/'assets/site.css').read_text(encoding='utf-8')
-        self.assertIn('body.notice-open .floating{display:none}', css)
+        self.assertNotRegex(css, r'\.floating\s*\{[^}]*display\s*:\s*none')
+
+    def test_hidden_breaks_keep_word_boundaries(self):
+        for rel in ['index.html', 'assets/og.html']:
+            source = (ROOT/rel).read_text(encoding='utf-8')
+            self.assertNotRegex(source, r'[^\s>]<br\b', rel)
+
+    def test_manifest_text_uses_lf_and_binary_assets_are_protected(self):
+        attrs = (ROOT/'.gitattributes').read_text(encoding='utf-8')
+        self.assertIn('* text=auto eol=lf', attrs)
+        for extension in ['webp', 'png', 'woff2', 'ttf']:
+            self.assertIn(f'*.{extension} binary', attrs)
+        for slug in SLUGS:
+            base = ROOT/'exemplos'/slug
+            data = json.loads((base/'manifest.json').read_text(encoding='utf-8'))
+            for rel in data['arquivos']:
+                if Path(rel).suffix in {'.html', '.css', '.js', '.json', '.txt', '.xml', '.svg'}:
+                    self.assertNotIn(b'\r\n', (base/rel).read_bytes(), str(base/rel))
 
     def test_no_inputs_shipped_and_no_encoding_damage(self):
         self.assertFalse((ROOT/'_insumos').exists())

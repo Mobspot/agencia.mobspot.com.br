@@ -7,8 +7,8 @@
   "observacoes": "Adaptado para Pages: contatos Jade, formulários sem envio, metadados locais. Não é release de clínica real. Nomes de assets herdados do template; hashes abaixo refletem os bytes adaptados.",
   "arquivos": {
     "404.html": {
-      "sha256": "4a8e3685eb9d4d1d74dbed309bac8177d8985ea2d826c1e09f1fd21b79fc3e16",
-      "bytes": 6211
+      "sha256": "5f837372fe7efb88116c8428eb699d9744e7fa1d9a2ccf4f29b7afbc5a6a94c2",
+      "bytes": 6184
     },
     "assets/inter-8909904ab6c872eb.woff2": {
       "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc",
@@ -75,24 +75,24 @@
       "bytes": 40142
     },
     "assets/site-8d97797350369bd8.js": {
-      "sha256": "52d8bea6ea74cadb314aea1f19b9be8740ecb167a8fe37c3fe687f61490a62fd",
-      "bytes": 2508
+      "sha256": "207641908499a2bf4db7c872f95135943098c77c8faa26e32665519bb6dbafa3",
+      "bytes": 2463
     },
     "assets/site-c7d6f841969b85cc.css": {
-      "sha256": "c3458722c8f527ee26b59e2bd501cb37d54c9d10ac398089f16160563704ec26",
-      "bytes": 13866
+      "sha256": "768485fe4dd04aa57d074d5e7b3b001b8b19352dffd79152810911639c5933cb",
+      "bytes": 13857
     },
     "contato/index.html": {
-      "sha256": "55f2769e10c05df37091a9637f18e6f413e82db45a9e68956ef84ee51eb63ecf",
-      "bytes": 13043
+      "sha256": "db9a8c9b919e1c102c1840b2a3e9013439a444316dd3d27e63d5e5c3675c920f",
+      "bytes": 13016
     },
     "index.html": {
-      "sha256": "cc5bf777f7da8c219aa3322f63798bc59b6358d276761c3b9f2740e1f1a9438f",
-      "bytes": 17302
+      "sha256": "e982ae4008f0ee60512860d9a567963f5de0fb70edbf2572b1d3430cb815f634",
+      "bytes": 17275
     },
     "servicos/index.html": {
-      "sha256": "f2c05144d46b3c373e3f7c2f4e6e730501cd36adb586f7d4c3b9e71d05d41165",
-      "bytes": 12203
+      "sha256": "40819a1ec08dec56eb9a2860c86af7f94fe0d3112c16a31d0366a4bd909494ba",
+      "bytes": 12176
     }
   }
 }
