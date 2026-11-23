@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-23 — seção Google e IAs (CEO, pedido do Sidney)
+
+- Nova seção "Seu site pronto para o Google e para as IAs" entre planos e processo: robots.txt, mapa do site, llms.txt, dados estruturados, rápido no celular, título e descrição (ícones Lucide 0.468.0 locais).
+- Prazo como expectativa ("costuma levar de 2 a 6 meses"), sem garantia de posição. Só itens que o template `clinicas-1.0.2` gera de fato.
+- `llms.txt` ganhou a mesma linha. Textos, preços, links e exemplos preservados; 17/17 testes; revisado em 390 e 1366 px.
+
 ## 2026-11-22 — revisão local R2
 
 - Espaços antes das quebras da landing/OG e hero mobile com texto balanceado.

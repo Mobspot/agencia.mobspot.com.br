@@ -5,6 +5,7 @@ Sites profissionais para clínicas.
 - Site: implantação de R$ 297 + R$ 49/mês, hospedagem e até 2 alterações mensais.
 - Agente de IA: a partir de R$ 600/mês, site incluso, primeiro atendimento e agendamento pelo WhatsApp.
 - Sob medida: a partir de R$ 1.200, orçamento conforme o projeto.
+- Todos os sites saem prontos para buscadores e IAs: robots.txt, sitemap.xml, llms.txt, dados estruturados (schema.org) e páginas leves no celular. Um bom posicionamento costuma levar de 2 a 6 meses; não há garantia de posição.
 - Contato: https://wa.me/5511995391545
 - Privacidade: https://agencia.mobspot.com.br/privacidade/
 
